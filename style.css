@@ -1,1 +1,40 @@
+.nav {
+    padding-left: 150px;    
+    background-color: #383838;
+    height: 60px;    
+}
 
+.nav-link {
+    color: #888888;
+}
+
+.nav-link:hover {
+    color: #d35266;
+}
+
+.nav-logo { 
+    font-family: 'Roboto', sans-serif;   
+    font-size: 1.5rem;
+    color: white;
+}
+
+.fi-padding {
+    margin-bottom: 4px;
+}
+
+.post-ad {
+    border-radius: 10px;
+    background-color: #d35266;
+    color: white;
+}
+
+.post-ad-link {
+    color: white;
+}
+
+.post-ad-link:hover {
+    border-radius: 10px;
+    background-color: white;
+    color: #d35266;
+    transition: 0.3s;
+}

@@ -4,7 +4,7 @@
 }
 
 .nav-link {
-  color: #888888;
+  color: #888;
 }
 
 .nav-link:hover {
@@ -70,7 +70,7 @@ header {
 }
 
 #dropdownMenuButton {
-  color: #888888;
+  color: #888;
   background-color: white;
 }
 
@@ -80,4 +80,9 @@ header {
   border: 0;
   border-radius: 0;
   height: 50px;
+}
+
+.carousel-image {
+  width: 30px;
+  height: 30px;
 }

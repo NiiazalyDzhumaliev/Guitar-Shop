@@ -53,3 +53,17 @@
     font-size: 1rem;
   }
 }
+
+header {
+  height: 300px;
+  background-color: #d35266;
+}
+
+.header-title-container {
+  color: white;
+}
+
+.header-title {
+  font-family: "Roboto", sans-serif;
+  font-size: 4rem;
+}

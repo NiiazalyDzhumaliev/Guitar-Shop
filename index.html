@@ -50,7 +50,9 @@
         </li>
       </ul>
     </nav>
-    <header class="d-flex justify-content-center">
+    <header
+      class="d-flex align-items-center justify-content-center flex-column"
+    >
       <div class="header-title-container text-center">
         <h1 class="header-title text-uppercase">
           zattix
@@ -59,6 +61,46 @@
           Buying and Selling Couldn't be Simpler than this!
         </h4>
       </div>
+      <form>
+        <div class="form-row">
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              All Categories
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Action and Adventure</a>
+              <a class="dropdown-item" href="#">Anthology</a>
+              <a class="dropdown-item" href="#">Crime and Detective</a>
+              <a class="dropdown-item" href="#">Drama</a>
+              <a class="dropdown-item" href="#">Fantasy</a>
+              <a class="dropdown-item" href="#">Science Fiction (Sci-Fi)</a>
+              <a class="dropdown-item" href="#">Suspense/Thriller</a>
+            </div>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="What do you search for?"
+            />
+          </div>
+          <div class="col">
+            <input type="text" class="form-control" />
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-secondary search-button">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
     </header>
 
     <!-- Optional JavaScript -->

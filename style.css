@@ -60,10 +60,24 @@ header {
 }
 
 .header-title-container {
+  /* margin-top: 50px; */
   color: white;
 }
 
 .header-title {
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
+}
+
+#dropdownMenuButton {
+  color: #888888;
+  background-color: white;
+}
+
+#dropdownMenuButton,
+.form-control,
+.search-button {
+  border: 0;
+  border-radius: 0;
+  height: 50px;
 }

@@ -1,36 +1,55 @@
 .nav {
-    padding-left: 150px;    
-    background-color: #383838;
-    height: 60px;    
+  background-color: #383838;
+  height: 60px;
 }
 
 .nav-link {
-    color: #888888;
+  color: #888888;
 }
 
 .nav-link:hover {
-    color: #d35266;
+  color: #d35266;
 }
 
-.nav-logo { 
-    font-family: 'Roboto', sans-serif;   
-    font-size: 1.5rem;
-    color: white;
+.nav-logo {
+  font-family: "Roboto", sans-serif;
+  font-size: 1.5rem;
+  color: white;
 }
 
 .fi-padding {
-    margin-bottom: 4px;
+  margin-bottom: 4px;
 }
 
 .post-ad-link {
-    border-radius: 10px;
-    background-color: #d35266;
-    color: white;
+  border-radius: 10px;
+  background-color: #d35266;
+  color: white;
 }
 
 .post-ad-link:hover {
-    border-radius: 10px;
-    background-color: white;
-    color: #d35266;
-    transition: 1s;
+  border-radius: 10px;
+  background-color: white;
+  color: #d35266;
+  transition: 1s;
+}
+
+@media screen and (max-width: 768px) {
+  .nav {
+    padding-left: 0;
+  }
+
+  .nav-link {
+    font-size: 0.8rem;
+  }
+}
+
+@media screen and (max-width: 576px) {
+  .nav {
+    padding-left: 0;
+  }
+
+  .nav-logo {
+    font-size: 1rem;
+  }
 }

@@ -90,7 +90,18 @@ header {
 }
 
 .instrument-slide-image {
+  border-radius: 5px;
   width: 300px;
   height: 200px;
   object-fit: cover;
+}
+
+.guitar-icon {
+  width: 30px;
+  height: 20px;
+}
+
+.guitar-section {
+  border-top: 1px solid #666;
+  background-color: #e4e8f0;
 }

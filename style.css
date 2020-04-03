@@ -34,13 +34,6 @@
   transition: 1s;
 }
 
-.website-logo {
-  margin-bottom: 10px;
-  width: 50px;
-  height: 30px;
-  fill: white;
-}
-
 @media screen and (max-width: 768px) {
   .nav {
     padding-left: 0;
@@ -67,13 +60,18 @@ header {
 }
 
 .header-title-container {
-  /* margin-top: 50px; */
   color: white;
 }
 
 .header-title {
   font-family: "Roboto", sans-serif;
   font-size: 4rem;
+}
+
+.logo-background {
+  left: 20px;
+  width: 20%;
+  fill: #c5cbd4;
 }
 
 #dropdownMenuButton {

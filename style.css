@@ -1,7 +1,14 @@
 .navbar {
   background-color: #383838;
-  height: 60px;
   list-style-type: none;
+}
+
+.navbar-left {
+  list-style-type: none;
+}
+
+.navbar-right {
+  padding-right: 40px;
 }
 
 .nav-link {

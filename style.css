@@ -1,6 +1,7 @@
-.nav {
+.navbar {
   background-color: #383838;
   height: 60px;
+  list-style-type: none;
 }
 
 .nav-link {

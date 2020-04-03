@@ -71,7 +71,8 @@ header {
 .logo-background {
   left: 20px;
   width: 20%;
-  fill: #e9ebf2;
+  fill: #888;
+  opacity: 0.3;
 }
 
 #dropdownMenuButton {

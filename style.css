@@ -88,3 +88,9 @@ header {
   height: 50px;
   object-fit: cover;
 }
+
+.instrument-slide-image {
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}

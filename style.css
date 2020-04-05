@@ -69,7 +69,9 @@
   }
 
   .nav-link {
-    font-size: 0.8rem;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-size: 0.6rem;
   }
 }
 

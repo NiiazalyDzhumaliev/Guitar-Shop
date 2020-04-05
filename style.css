@@ -104,12 +104,17 @@ header {
 .form-control,
 .search-button {
   border: 0;
-  border-radius: 0;  
+  border-radius: 0;
   height: 50px;
 }
 
 .form-control {
   width: 300px;
+}
+
+.arrow-icon {
+  color: #d35266;
+  cursor: pointer;
 }
 
 .instrument-slide-image {

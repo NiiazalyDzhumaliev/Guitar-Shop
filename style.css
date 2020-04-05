@@ -159,3 +159,20 @@ header {
 .fi-snluxl-plus {
   cursor: pointer;
 }
+
+footer {
+  background-color: white;
+}
+
+.footer-category-list,
+.footer-nav-list {
+  padding: 0;
+  list-style: none;
+}
+
+.categories-title,
+.nav-footer-title {
+  border-bottom: 1px solid #d35266;
+  font-size: 0.9rem;
+  color: #d35266;
+}

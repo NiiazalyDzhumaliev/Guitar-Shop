@@ -34,10 +34,22 @@ nav {
   font-size: 1.2rem;
 }
 
-.fi-xnsuxl-house-solid,
-.fi-ctsuxl-dot-thin,
-.fi-xwsuhl-shopping-cart-solid,
-.fi-xwsuxl-envelope-solid {
+.fi-xnsuxl-house-solid {
   position: relative;
   bottom: 5px;
+}
+
+.fi-ctsuxl-dot-thin {
+  position: relative;
+  bottom: 3px;
+}
+
+.fi-xwsuhl-shopping-cart-solid {
+  position: relative;
+  bottom: 4px;
+}
+
+.fi-xwsuxl-envelope-solid {
+  position: relative;
+  bottom: 4px;
 }

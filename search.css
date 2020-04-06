@@ -163,3 +163,7 @@ form {
     display: none;
   }
 }
+
+input {
+  vertical-align: -1px;
+}

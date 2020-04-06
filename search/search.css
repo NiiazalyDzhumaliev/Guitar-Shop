@@ -1,0 +1,16 @@
+body {
+  background-color: #f2f2f2;
+}
+
+nav {
+  height: 60px;
+  background-color: #383838;
+}
+
+.nav-left {
+  list-style-type: none;
+}
+
+.zattix-name {
+  color: white;
+}

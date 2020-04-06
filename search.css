@@ -30,6 +30,16 @@ nav {
   object-fit: cover;
 }
 
+.nav-link {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
 .fi-xnsuxm-house-solid {
   position: relative;
   bottom: 3px;

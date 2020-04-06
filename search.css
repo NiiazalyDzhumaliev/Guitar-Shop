@@ -3,16 +3,23 @@ body {
 }
 
 nav {
-  height: 60px;
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
   background-color: #383838;
 }
 
 .nav-left,
 .nav-right {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
 .zattix-name {
+  margin-bottom: 0;
   color: white;
 }
 

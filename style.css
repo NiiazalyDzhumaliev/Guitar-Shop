@@ -176,3 +176,28 @@ footer {
   font-size: 0.9rem;
   color: #d35266;
 }
+
+.zattix-footer {
+  max-width: 300px;
+}
+
+.footer-categories,
+.footer-nav {
+  padding-top: 50px;
+}
+
+.footer-location {
+  padding-top: 80px;
+  padding-right: 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .zattix-footer {
+    display: none;
+  }
+
+  .footer-categories {
+    padding-left: 20px;
+    padding-right: 10px;
+  }
+}

@@ -120,3 +120,18 @@ nav {
     margin-right: 5px;
   }
 }
+
+header {
+  height: 200px;
+  background-color: #d35266;
+}
+
+.header-title-description {
+  line-height: 10px;
+  color: white;
+}
+
+.header-title {
+  margin-bottom: 0;
+  color: white;
+}

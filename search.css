@@ -40,6 +40,20 @@ nav {
   color: #d35266;
 }
 
+.post-ad {
+  border-radius: 10px;
+  background-color: #d35266;
+  color: white;
+}
+
+.post-ad:hover {
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #d35266;
+  transition: 1s;
+}
+
 .fi-xnsuxm-house-solid {
   position: relative;
   bottom: 3px;

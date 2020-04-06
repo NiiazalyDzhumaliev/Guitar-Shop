@@ -7,10 +7,18 @@ nav {
   background-color: #383838;
 }
 
-.nav-left {
+.nav-left,
+.nav-right {
   list-style-type: none;
 }
 
 .zattix-name {
   color: white;
+}
+
+.user-avatar {
+  border-radius: 50%;
+  width: 50px;
+  height: 50px;
+  object-fit: cover;
 }

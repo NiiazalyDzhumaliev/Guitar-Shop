@@ -29,3 +29,15 @@ nav {
   height: 50px;
   object-fit: cover;
 }
+
+.nav-link {
+  font-size: 1.2rem;
+}
+
+.fi-xnsuxl-house-solid,
+.fi-ctsuxl-dot-thin,
+.fi-xwsuhl-shopping-cart-solid,
+.fi-xwsuxl-envelope-solid {
+  position: relative;
+  bottom: 5px;
+}

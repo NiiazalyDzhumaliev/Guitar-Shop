@@ -18,6 +18,10 @@ nav {
   list-style-type: none;
 }
 
+.nav-left {
+  margin-left: 20px;
+}
+
 .zattix-name {
   margin-bottom: 0;
   color: white;
@@ -57,19 +61,61 @@ nav {
 .fi-xnsuxm-house-solid {
   position: relative;
   bottom: 3px;
+  margin-right: 10px;
 }
 
 .fi-ctsuxm-dot-thin {
   position: relative;
   bottom: 3px;
+  margin-right: 10px;
 }
 
 .fi-xwsuhm-shopping-cart-solid {
   position: relative;
   bottom: 2px;
+  margin-right: 10px;
 }
 
 .fi-xwsuxm-envelope-solid {
   position: relative;
   bottom: 2px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 840px) {
+  .nav-left {
+    width: 100%;
+    justify-content: space-between;
+    margin-left: 0;
+  }
+
+  .nav-link {
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .post-ad {
+    padding-right: 16px;
+    padding-left: 16px;
+  }
+
+  .nav-right {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .post-ad {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .nav-link {
+    font-size: 0.7rem;
+  }
+
+  .nav-icon {
+    margin-right: 5px;
+  }
 }

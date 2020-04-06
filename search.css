@@ -30,26 +30,22 @@ nav {
   object-fit: cover;
 }
 
-.nav-link {
-  font-size: 1.2rem;
-}
-
-.fi-xnsuxl-house-solid {
-  position: relative;
-  bottom: 5px;
-}
-
-.fi-ctsuxl-dot-thin {
+.fi-xnsuxm-house-solid {
   position: relative;
   bottom: 3px;
 }
 
-.fi-xwsuhl-shopping-cart-solid {
+.fi-ctsuxm-dot-thin {
   position: relative;
-  bottom: 4px;
+  bottom: 3px;
 }
 
-.fi-xwsuxl-envelope-solid {
+.fi-xwsuhm-shopping-cart-solid {
   position: relative;
-  bottom: 4px;
+  bottom: 2px;
+}
+
+.fi-xwsuxm-envelope-solid {
+  position: relative;
+  bottom: 2px;
 }

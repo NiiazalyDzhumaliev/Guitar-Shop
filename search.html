@@ -60,12 +60,55 @@
       </ul>
     </nav>
     <header>
+      <div class="header-title-container">
       <h2 class="header-title text-uppercase font-weight-bold">
         zattix
       </h2>
       <p class="header-title-description">
         Search around 10,000 guitars are waiting to be sold
       </p>
+    </div>
+      <form>
+        <div class="form-row">
+          <div class="dropdown">
+            <button
+              class="btn btn-light dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              All Categories
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Anthology</a>
+              <a class="dropdown-item" href="#">Brass</a>
+              <a class="dropdown-item" href="#">String Instruments</a>
+              <a class="dropdown-item" href="#">Woodwind Instruments</a>
+            </div>
+          </div>
+          <div class="col form-control-col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="What do you search for?"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="San Francisco"
+            />
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-secondary search-button">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
     </header>
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->

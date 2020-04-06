@@ -1,5 +1,6 @@
 body {
   background-color: #f2f2f2;
+  overflow-x: hidden;
 }
 
 nav {
@@ -121,7 +122,6 @@ nav {
 }
 
 header {
-  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -172,6 +172,10 @@ input[type=checkbox] {
   transform: scale(1.5);
 }
 
+label {
+  color: #888;
+}
+
 .main-form {
   padding-left: 50px;
   padding-top: 30px;
@@ -182,4 +186,22 @@ input[type=checkbox] {
 .form-title {
   border-bottom: 1px solid #888;
   width: 220px;
+}
+
+@media screen and (max-width: 768px) {
+  .main-form {
+    display: none;
+  }
+}
+
+.search-results-container {
+  border-right: 1px solid #888;
+}
+
+.results-outcome {
+  margin-bottom: 0;
+  padding: 10px;
+  border-bottom: 1px solid #888;
+  width: 100%;
+  color: #888;
 }

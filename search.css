@@ -83,9 +83,14 @@ nav {
 }
 
 @media screen and (max-width: 840px) {
+
+  .nav-right {
+    display: none;
+  }
+
   .nav-left {
     width: 100%;
-    justify-content: space-between;
+    justify-content: space-around;
     margin-left: 0;
   }
 
@@ -98,21 +103,17 @@ nav {
     padding-right: 16px;
     padding-left: 16px;
   }
-
-  .nav-right {
-    display: none;
-  }
 }
 
 @media screen and (max-width: 768px) {
-  .post-ad {
+  .post-ad-list {
     display: none;
   }
 }
 
 @media screen and (max-width: 400px) {
   .nav-link {
-    font-size: 0.7rem;
+    font-size: 0.8rem;
   }
 
   .nav-icon {

@@ -268,3 +268,28 @@ label {
     flex-grow: 1;
   }
 }
+
+.category-list {
+  list-style: none;
+  padding-left: 0;
+}
+
+.category-list-item {
+  margin-bottom: 5px;
+}
+
+.category-list-link {
+  color: #888;
+  font-size: 0.9rem;
+}
+
+.category-list-link:hover {
+  color: #383838;
+  text-decoration: none;
+  font-size: 0.9rem;
+}
+
+.footer-title {
+  border-bottom: 1px solid #d35266;
+  color: #d35266;
+}

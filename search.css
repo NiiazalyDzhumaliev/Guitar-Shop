@@ -180,6 +180,7 @@ label {
   padding-top: 30px;
   width: 300px;
   border-right: 1px solid #888;
+  border-bottom: 1px solid #888;
 }
 
 .form-title {

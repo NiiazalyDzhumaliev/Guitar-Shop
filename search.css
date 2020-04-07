@@ -222,6 +222,10 @@ label {
   background-color: #888;
 }
 
+.results-item-container {
+  border-bottom: 1px solid #888;
+}
+
 .fi-swluxl-plus-wide,
 .results-description,
 .results-date,

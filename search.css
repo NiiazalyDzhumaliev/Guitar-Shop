@@ -187,12 +187,6 @@ label {
   width: 220px;
 }
 
-@media screen and (max-width: 768px) {
-  .main-form {
-    display: none;
-  }
-}
-
 .search-results-container {
   border-right: 1px solid #888;
 }

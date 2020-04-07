@@ -2,48 +2,29 @@ body {
   background-color: #f2f2f2;
 }
 
-.navbar {
+nav {
+  display: flex;
+  justify-content: space-between;
+  height: 70px;
   background-color: #383838;
+}
+
+.nav-left,
+.nav-right {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0;
+  padding-left: 0;
   list-style-type: none;
 }
 
-.navbar-left {
-  list-style-type: none;
+.nav-left {
+  margin-left: 20px;
 }
 
-.navbar-right {
-  padding-right: 40px;
-}
-
-.nav-link {
-  color: #888;
-}
-
-.nav-link:hover {
-  color: #d35266;
-}
-
-.nav-logo {
-  font-family: "Roboto", sans-serif;
-  font-size: 1.5rem;
+.zattix-name {
+  margin-bottom: 0;
   color: white;
-}
-
-.fi-padding {
-  margin-bottom: 4px;
-}
-
-.post-ad-link {
-  border-radius: 10px;
-  background-color: #d35266;
-  color: white;
-}
-
-.post-ad-link:hover {
-  border-radius: 10px;
-  background-color: white;
-  color: #d35266;
-  transition: 1s;
 }
 
 .user-avatar {
@@ -53,29 +34,89 @@ body {
   object-fit: cover;
 }
 
-@media screen and (max-width: 768px) {
-  .nav {
-    padding-left: 0;
+.nav-link {
+  color: #888;
+  text-transform: uppercase;
+}
+
+.nav-link:hover {
+  text-decoration: none;
+  color: #d35266;
+}
+
+.post-ad {
+  border-radius: 10px;
+  background-color: #d35266;
+  color: white;
+}
+
+.post-ad:hover {
+  text-decoration: none;
+  border-radius: 10px;
+  background-color: white;
+  color: #d35266;
+  transition: 1s;
+}
+
+.fi-xnsuxm-house-solid {
+  position: relative;
+  bottom: 3px;
+  margin-right: 10px;
+}
+
+.fi-ctsuxm-dot-thin {
+  position: relative;
+  bottom: 3px;
+  margin-right: 10px;
+}
+
+.fi-xwsuhm-shopping-cart-solid {
+  position: relative;
+  bottom: 2px;
+  margin-right: 10px;
+}
+
+.fi-xwsuxm-envelope-solid {
+  position: relative;
+  bottom: 2px;
+  margin-right: 10px;
+}
+
+@media screen and (max-width: 840px) {
+  .nav-right {
+    display: none;
+  }
+
+  .nav-left {
+    width: 100%;
+    justify-content: space-around;
+    margin-left: 0;
   }
 
   .nav-link {
-    font-size: 1rem;
+    padding-left: 0;
+    padding-right: 0;
+  }
+
+  .post-ad {
+    padding-right: 16px;
+    padding-left: 16px;
   }
 }
 
-@media screen and (max-width: 576px) {
-  .nav {
-    padding-left: 0;
+@media screen and (max-width: 768px) {
+  .post-ad-list {
+    display: none;
   }
+}
 
-  .nav-logo {
-    font-size: 1rem;
-  }
-
+@media screen and (max-width: 400px) {
   .nav-link {
-    padding-left: 5px;
-    padding-right: 5px;
-    font-size: 0.6rem;
+    font-size: 0.8rem;
+  }
+
+  .nav-icon {
+    margin-right: 5px;
   }
 }
 

@@ -252,3 +252,13 @@ label {
   color: white;
   background-color: #d35266;
 }
+
+@media screen and (max-width: 768px) {
+  .image-container {
+    display: flex;
+  }
+
+  .results-img {
+    flex-grow: 1;
+  }
+}

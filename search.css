@@ -201,12 +201,12 @@ label {
 
 .image-container {
   position: relative;
-  width: 300px;
+  max-width: 100%;
   height: 250px;
 }
 
 .results-img {
-  width: 300px;
+  max-width: 100%;
   height: 250px;
   object-fit: cover;
 }

@@ -220,6 +220,7 @@ label {
   width: 60px;
   height: 30px;
   background-color: #888;
+  cursor: pointer;
 }
 
 .results-item-container {

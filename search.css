@@ -232,3 +232,23 @@ label {
 .results-description {
   line-height: 20px;
 }
+
+.results-header {
+  font-size: 1.1rem;
+}
+
+.results-condition {
+  font-weight: bold;
+  color: #d35266;
+}
+
+.results-price-link {
+  color: white;
+  background-color: #d35266;
+}
+
+.results-price-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #d35266;
+}

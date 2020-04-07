@@ -227,3 +227,14 @@ label {
   height: 30px;
   background-color: #888;
 }
+
+.fi-swluxl-plus-wide,
+.results-description,
+.results-date,
+.city-location {
+  color: #888;
+}
+
+.results-description {
+  line-height: 20px;
+}

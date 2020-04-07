@@ -269,6 +269,10 @@ label {
   }
 }
 
+footer {
+  background-color: white;
+}
+
 .category-list {
   list-style: none;
   padding-left: 0;
@@ -292,4 +296,34 @@ label {
 .footer-title {
   border-bottom: 1px solid #d35266;
   color: #d35266;
+}
+
+.country-container {
+  margin-top: 30px;
+  margin-left: 20px;
+}
+
+.country-title {
+  display: inline-block;
+  margin-bottom: 24px;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: #d35266;
+}
+
+.country-link {
+  display: inline-block;
+  margin-bottom: 15px;
+  margin-left: 15px;
+  padding: 3px 10px;
+  border: 1px solid #888;
+  color: #888;
+}
+
+.country-link:hover {
+  text-decoration: none;
+  color: white;
+  background-color: #888;
+  transition: 0.3s;
 }

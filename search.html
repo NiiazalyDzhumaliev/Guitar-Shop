@@ -1,0 +1,470 @@
+<!DOCTYPE html>
+<html lang="zxx">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <!-- Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css"
+      integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="search.css" />
+    <title>Zattix</title>
+  </head>
+  <body>
+    <nav>
+      <ul class="nav-left">
+        <li class="dropdown d-sm-none mr-3 ml-2">
+          <a
+            class="btn btn-secondary"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fi-xnsuxl-three-bars-solid"></i>
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Collection</a>
+            <a class="dropdown-item" href="#">Purchase</a>
+          </div>
+        </li>
+        <li><h5 class="zattix-name text-uppercase">zattix</h5></li>
+        <li class="d-none d-sm-block">
+          <a href="#" class="nav-link text-uppercase"
+            ><i class="fi-xnsuxm-house-solid nav-icon"></i>Home</a
+          >
+        </li>
+        <li class="d-none d-sm-block">
+          <a href="search.html" class="nav-link"
+            ><i class="fi-ctsuxm-dot-thin nav-icon"></i>Collection</a
+          >
+        </li>
+        <li class="d-none d-sm-block">
+          <a href="#" class="nav-link"
+            ><i class="fi-xwsuhm-shopping-cart-solid nav-icon"></i>Purchase
+            List</a
+          >
+        </li>
+        <li class="post-ad-list">
+          <a href="#" class="nav-link post-ad text-uppercase mr-3"
+            >post an ad</a
+          >
+        </li>
+      </ul>
+      <ul class="nav-right mr-3">
+        <li class="nav-right-username">
+          <a href="#" class="nav-link text-capitalize user-link"
+            ><i class="fi-xwsuxm-envelope-solid"></i>John Doe</a
+          >
+        </li>
+        <li>
+          <img
+            src="images/jack-finnigan-rriAI0nhcbc-unsplash.jpg"
+            alt="User image"
+            class="user-avatar ml-2"
+          />
+        </li>
+      </ul>
+    </nav>
+    <header>
+      <div class="header-title-container">
+        <h2 class="header-title text-uppercase font-weight-bold">
+          zattix
+        </h2>
+        <p class="header-title-description">
+          Search around 10,000 guitars are waiting to be sold
+        </p>
+      </div>
+      <form>
+        <div class="form-row">
+          <div class="dropdown">
+            <button
+              class="btn btn-light dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-toggle="dropdown"
+              aria-haspopup="true"
+              aria-expanded="false"
+            >
+              All Categories
+            </button>
+            <div class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <a class="dropdown-item" href="#">Anthology</a>
+              <a class="dropdown-item" href="#">Brass</a>
+              <a class="dropdown-item" href="#">String Instruments</a>
+              <a class="dropdown-item" href="#">Woodwind Instruments</a>
+            </div>
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="Acoustic Guitar"
+            />
+          </div>
+          <div class="col">
+            <input
+              type="text"
+              class="form-control"
+              placeholder="San Francisco"
+            />
+          </div>
+          <div class="col">
+            <button type="button" class="btn btn-secondary search-button">
+              Search
+            </button>
+          </div>
+        </div>
+      </form>
+    </header>
+    <main class="container-fluid">
+      <section class="row">
+        <form action="#" class="main-form d-none d-lg-block">
+          <input type="checkbox" name="rent" id="rent" />
+          <label for="rent" class="mr-5"> Rent</label>
+          <input type="checkbox" name="ownership" id="ownership" />
+          <label for="ownership"> Ownership</label><br />
+
+          <h6 class="form-title mt-3 pb-2">Type</h6>
+          <input type="checkbox" name="acoustic" id="acoustic" />
+          <label for="acoustic"> Acoustic</label><br />
+          <input type="checkbox" name="electric" id="electric" />
+          <label for="electric"> Electric</label><br />
+          <input type="checkbox" name="special-ed" id="special-ed" />
+          <label for="special-ed"> Special Edition</label><br />
+
+          <h6 class="form-title mt-3 pb-2">Size</h6>
+          <input type="checkbox" name="x-size" id="x-size" />
+          <label for="x-size"> Small</label><br />
+          <input type="checkbox" name="m-size" id="m-size" />
+          <label for="m-size"> Medium</label><br />
+          <input type="checkbox" name="l-size" id="l-size" />
+          <label for="l-size"> Large</label><br />
+
+          <h6 class="form-title mt-3 pb-2">Price Range</h6>
+          <input type="checkbox" name="x-price" id="x-price" />
+          <label for="x-price"> 100$ - 200$</label><br />
+          <input type="checkbox" name="m-price" id="m-price" />
+          <label for="m-price"> 300$ - 400$</label><br />
+          <input type="checkbox" name="l-price" id="l-price" />
+          <label for="l-price"> 500$ - 600$</label><br />
+        </form>
+        <section class="search-results-container col p-0 mr-lg-3">
+          <p class="results-outcome">
+            138 results for Acoustic Guitar at San Francisco in Category
+          </p>
+          <div
+            class="results-item-container d-flex flex-column flex-sm-row pl-3 pt-3 pb-3"
+          >
+            <div class="image-container">
+              <img
+                src="images/adi-goldstein-vH2vj_3_IeU-unsplash.jpg"
+                alt="Guitar"
+                class="results-img pr-3"
+              />
+              <img
+                src="images/double-arrow(1).png"
+                alt="Arrow"
+                class="double-arrow d-none d-sm-block mr-3"
+              />
+            </div>
+            <div
+              class="results-header-container d-flex flex-column w-100 justify-content-between pr-3 pt-2"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="results-header m-0">Acoustic Guitar Model R538</h5>
+                <i class="fi-swluxl-plus-wide"></i>
+              </div>
+              <p class="results-condition">New</p>
+              <p class="results-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores eligendi aspernatur, velit modi error excepturi
+                adipisci officiis libero aut delectus. Voluptas officia
+                laudantium ducimus impedit nulla fuga est voluptatem quis!
+              </p>
+              <p>
+                <span class="results-location font-weight-bold">Location: </span
+                ><span class="city-location">San Francisco, U.S.</span>
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="results-date">23 Nov 2020</p>
+                <a href="#" class="results-price-link pr-2 pl-2 pt-1 pb-1"
+                  >150$</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="results-item-container d-flex flex-column flex-sm-row pl-3 pt-3 pb-3"
+          >
+            <div class="image-container">
+              <img
+                src="images/thomas-kelley-2ZWCDBuw1B8-unsplash.jpg"
+                alt="Guitar"
+                class="results-img pr-3"
+              />
+              <img
+                src="images/double-arrow(1).png"
+                alt="Arrow"
+                class="double-arrow d-none d-sm-block mr-3"
+              />
+            </div>
+            <div
+              class="results-header-container d-flex flex-column w-100 justify-content-between pr-3 pt-2"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="results-header m-0">Acoustic Guitar Model R538</h5>
+                <i class="fi-swluxl-plus-wide"></i>
+              </div>
+              <p class="results-condition">New</p>
+              <p class="results-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores eligendi aspernatur, velit modi error excepturi
+                adipisci officiis libero aut delectus. Voluptas officia
+                laudantium ducimus impedit nulla fuga est voluptatem quis!
+              </p>
+              <p>
+                <span class="results-location font-weight-bold">Location: </span
+                ><span class="city-location">San Francisco, U.S.</span>
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="results-date">23 Nov 2020</p>
+                <a href="#" class="results-price-link pr-2 pl-2 pt-1 pb-1"
+                  >150$</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="results-item-container d-flex flex-column flex-sm-row pl-3 pt-3 pb-3"
+          >
+            <div class="image-container">
+              <img
+                src="images/freestocks-LoppUA_9F1w-unsplash(1).jpg"
+                alt="Guitar"
+                class="results-img pr-3"
+              />
+              <img
+                src="images/double-arrow(1).png"
+                alt="Arrow"
+                class="double-arrow d-none d-sm-block mr-3"
+              />
+            </div>
+            <div
+              class="results-header-container d-flex flex-column w-100 justify-content-between pr-3 pt-2"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="results-header m-0">Acoustic Guitar Model R538</h5>
+                <i class="fi-swluxl-plus-wide"></i>
+              </div>
+              <p class="results-condition">New</p>
+              <p class="results-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores eligendi aspernatur, velit modi error excepturi
+                adipisci officiis libero aut delectus. Voluptas officia
+                laudantium ducimus impedit nulla fuga est voluptatem quis!
+              </p>
+              <p>
+                <span class="results-location font-weight-bold">Location: </span
+                ><span class="city-location">San Francisco, U.S.</span>
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="results-date">23 Nov 2020</p>
+                <a href="#" class="results-price-link pr-2 pl-2 pt-1 pb-1"
+                  >150$</a
+                >
+              </div>
+            </div>
+          </div>
+          <div
+            class="results-item-container d-flex flex-column flex-sm-row pl-3 pt-3 pb-3"
+          >
+            <div class="image-container">
+              <img
+                src="images/chuttersnap-r3dQGXRgScI-unsplash.jpg"
+                alt="Guitar"
+                class="results-img pr-3"
+              />
+              <img
+                src="images/double-arrow(1).png"
+                alt="Arrow"
+                class="double-arrow d-none d-sm-block mr-3"
+              />
+            </div>
+            <div
+              class="results-header-container d-flex flex-column w-100 justify-content-between pr-3 pt-2"
+            >
+              <div class="d-flex w-100 justify-content-between">
+                <h5 class="results-header m-0">Acoustic Guitar Model R538</h5>
+                <i class="fi-swluxl-plus-wide"></i>
+              </div>
+              <p class="results-condition">New</p>
+              <p class="results-description">
+                Lorem ipsum dolor sit, amet consectetur adipisicing elit.
+                Asperiores eligendi aspernatur, velit modi error excepturi
+                adipisci officiis libero aut delectus. Voluptas officia
+                laudantium ducimus impedit nulla fuga est voluptatem quis!
+              </p>
+              <p>
+                <span class="results-location font-weight-bold">Location: </span
+                ><span class="city-location">San Francisco, U.S.</span>
+              </p>
+              <div class="d-flex align-items-center justify-content-between">
+                <p class="results-date">23 Nov 2020</p>
+                <a href="#" class="results-price-link pr-2 pl-2 pt-1 pb-1"
+                  >150$</a
+                >
+              </div>
+            </div>
+          </div>
+        </section>
+      </section>
+      <footer class="row pt-3">
+        <div
+          class="zattix-footer d-lg-flex flex-column align-items-center col-4 d-none"
+        >
+          <h3 class="zattix-footer-title text-uppercase text-center">zattix</h3>
+          <p class="zattix-description text-justify w-75">
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Accusamus
+            tenetur sequi ipsa! Vel reiciendis consequatur veritatis blanditiis
+            eos illum quia inventore, vitae voluptatibus maiores aspernatur
+            necessitatibus, reprehenderit eaque laborum harum?
+          </p>
+        </div>
+        <section
+          class="d-flex justify-content-around justify-content-sm-between col"
+        >
+          <div class="footer-categories ml-3">
+            <h6 class="footer-title text-uppercase pb-2">
+              categories
+            </h6>
+            <div class="category-list-container d-flex">
+              <ul class="category-list mr-4">
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Acoustic</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Electric</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Spanic</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Ukulele</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Classical</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Semi Acoustic</a>
+                </li>
+              </ul>
+              <ul class="category-list d-none d-sm-block">
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link">
+                    Modelers for Guitars</a
+                  >
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link">
+                    Effects for Guitars</a
+                  >
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Guitar Synths</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link">
+                    Strings for Guitars</a
+                  >
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Guitar Parts</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Cables for Guitars</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="footer-categories ml-3">
+            <h6 class="footer-title text-uppercase pb-2">
+              navigation
+            </h6>
+            <div class="category-list-container d-flex">
+              <ul class="category-list mr-4">
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Home</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Sign In</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Log In</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Terms & Conditions</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> FAQ</a>
+                </li>
+                <li class="category-list-item">
+                  <a href="#" class="category-list-link"> Help</a>
+                </li>
+              </ul>
+            </div>
+          </div>
+          <div class="d-md-flex country-container d-none">
+            <ul class="category-list">
+              <li>
+                <span class="country-title mt-2">Country</span>
+              </li>
+              <li>
+                <span class="country-title">Language</span>
+              </li>
+              <li>
+                <span class="country-title">Currency</span>
+              </li>
+            </ul>
+            <ul class="category-list text-center">
+              <li><a href="#" class="country-link">U.S.</a></li>
+              <li><a href="#" class="country-link">English</a></li>
+              <li><a href="#" class="country-link">US Dollar</a></li>
+            </ul>
+          </div>
+        </section>
+      </footer>
+    </main>
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script
+      src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
+      integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
+      integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"
+      integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6"
+      crossorigin="anonymous"
+    ></script>
+    <script defer src="https://friconix.com/cdn/friconix.js"></script>
+  </body>
+</html>

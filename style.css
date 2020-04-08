@@ -82,8 +82,12 @@ nav {
   margin-right: 10px;
 }
 
+.fi-xnsuxl-three-bars-solid {
+  color: white;
+}
+
 @media screen and (max-width: 840px) {
-  .nav-right {
+  .nav-right-username {
     display: none;
   }
 

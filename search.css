@@ -35,6 +35,7 @@ nav {
 }
 
 .nav-link {
+  white-space: nowrap;
   color: #888;
   text-transform: uppercase;
 }
@@ -82,8 +83,12 @@ nav {
   margin-right: 10px;
 }
 
-@media screen and (max-width: 840px) {
-  .nav-right {
+.fi-xnsuxl-three-bars-solid {
+  color: white;
+}
+
+@media screen and (max-width: 858px) {
+  .post-ad-list {
     display: none;
   }
 
@@ -104,9 +109,9 @@ nav {
   }
 }
 
-@media screen and (max-width: 768px) {
-  .post-ad-list {
-    display: none;
+@media screen and (max-width: 576px) {
+  .nav-left {
+    justify-content: start;
   }
 }
 

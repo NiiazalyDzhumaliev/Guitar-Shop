@@ -22,18 +22,37 @@
   <body>
     <nav>
       <ul class="nav-left">
+        <li class="dropdown d-sm-none mr-3 ml-2">
+          <a
+            class="btn btn-secondary"
+            href="#"
+            role="button"
+            id="dropdownMenuLink"
+            data-toggle="dropdown"
+            aria-haspopup="true"
+            aria-expanded="false"
+          >
+            <i class="fi-xnsuxl-three-bars-solid"></i>
+          </a>
+
+          <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+            <a class="dropdown-item" href="#">Home</a>
+            <a class="dropdown-item" href="#">Collection</a>
+            <a class="dropdown-item" href="#">Purchase</a>
+          </div>
+        </li>
         <li><h5 class="zattix-name text-uppercase">zattix</h5></li>
-        <li>
+        <li class="d-none d-sm-block">
           <a href="#" class="nav-link text-uppercase"
             ><i class="fi-xnsuxm-house-solid nav-icon"></i>Home</a
           >
         </li>
-        <li>
-          <a href="#" class="nav-link"
+        <li class="d-none d-sm-block">
+          <a href="search.html" class="nav-link"
             ><i class="fi-ctsuxm-dot-thin nav-icon"></i>Collection</a
           >
         </li>
-        <li>
+        <li class="d-none d-sm-block">
           <a href="#" class="nav-link"
             ><i class="fi-xwsuhm-shopping-cart-solid nav-icon"></i>Purchase
             List</a
@@ -46,7 +65,7 @@
         </li>
       </ul>
       <ul class="nav-right mr-3">
-        <li>
+        <li class="nav-right-username">
           <a href="#" class="nav-link text-capitalize user-link"
             ><i class="fi-xwsuxm-envelope-solid"></i>John Doe</a
           >
@@ -55,7 +74,7 @@
           <img
             src="images/jack-finnigan-rriAI0nhcbc-unsplash.jpg"
             alt="User image"
-            class="user-avatar"
+            class="user-avatar ml-2"
           />
         </li>
       </ul>

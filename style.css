@@ -114,6 +114,12 @@ nav {
   }
 }
 
+@media screen and (max-width: 576px) {
+  .nav-left {
+    justify-content: start;
+  }
+}
+
 @media screen and (max-width: 400px) {
   .nav-link {
     font-size: 0.8rem;
